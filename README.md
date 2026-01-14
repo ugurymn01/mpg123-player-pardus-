@@ -84,3 +84,6 @@ chmod +x gui/gui.sh
     </td>
   </tr>
 </table>
+
+## Uygulalamızın youtube videosu
+[sesli anlatım videosu](https://www.youtube.com/watch?v=o8wfDZ3blDY)

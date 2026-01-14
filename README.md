@@ -46,3 +46,4 @@ chmod +x gui/gui.sh
 # Uygulama Tanıtımı
   Uygulamamızda bizi ilk olarak terminal üzerinden mi grafiksel olarak mı kullanmamızı tercih deceğimiz menü ekranı karşılıyor.
 
+![arayüz ekranı](arayuz secimi.png)

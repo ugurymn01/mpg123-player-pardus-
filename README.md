@@ -49,7 +49,9 @@ chmod +x gui/gui.sh
 ![Arayüz Seçim Ekranı](screenshots/arayuz%20secimi.png)
 
 ## TUI arayüz ekranı
+
 ![TUI Seçim Ekranı](screenshots/TUI%20EKRANI.png)
+  
   Bu ekranımızda önümüze seçeneklerimiz mp3 çalar ve radyo seçenekleri çıkmakta. Mp3 ekranında bizi bilgisayarımızda yüklü olan mp3 dosyalarının listesi karşılamakta olup seçilen mp3 ümüzü çalmayı sağlamaktadır. Radyo seçeneğimizde uygulamamıza kayıtlı olan radyolar listesi karşılamakta ve bu ekrandan yaptığımız seçime göre o radyo çalmaktadır.
   Eğer hiçbir işlem yapmayacaksak çıkış ekranı ve vazgeçtiğimizde iptal seçeneği de karşılamakta. Bu arayüzümüzün görüntüleri aşağıda bulunmaktadır:
 <table style="width:100%">
@@ -66,7 +68,9 @@ chmod +x gui/gui.sh
 </table>
 
 ## GUI arayüz ekranı 
+
 ![GUI Seçim Ekranı](screenshots/GUI%20ekran.png)
+  
   Bu ekranımızda da TUI arayüz ekranındaki gibi mp3 çalar ve radyo seçenekleri çıkmakta. Bu arayüzün tek farkı müzaik dosyalarımızı kendimiz dosyalarımızın içinden istediğimiz şekilde seçebiliyoruz. Bu arayüzümüzün görüntüleri ise bu şekildedir:
   <table style="width:100%">
   <tr>

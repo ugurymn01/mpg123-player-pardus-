@@ -9,14 +9,11 @@ secim=$(whiptail --title "MPG123 TUI Player" \
 "3" "Cikis" \
 3>&1 1>&2 2>&3)
 
-# Ana menü iptal -> tekrar göster
 [ $? -ne 0 ] && continue
 
 case $secim in
 
-# ================= MP3 =================
 1)
-    # MP3'leri iki yaygın klasörden topla
     mapfile -t mp3list < <(find "$HOME/İndirilenler" "$HOME/Müzik" -maxdepth 2 -type f -iname "*.mp3" 2>/dev/null)
 
     if [ ${#mp3list[@]} -eq 0 ]; then
@@ -24,7 +21,6 @@ case $secim in
         continue
     fi
 
-    # Whiptail menüsü için (tag item) listesi hazırla: 1 "dosyaadi"
     menu_items=()
     i=1
     for f in "${mp3list[@]}"; do
@@ -39,13 +35,12 @@ case $secim in
     3>&1 1>&2 2>&3)
 
     [ $? -ne 0 ] && continue
-
-    # Seçilen index ile gerçek dosya yolunu al
+    
     idx=$((sec-1))
     mpg123 "${mp3list[$idx]}"
     ;;
 
-# ================= RADYO =================
+# RADYO 
 2)
     radyo=$(whiptail --title "Radyo Secimi" \
     --menu "Radyo seciniz:" 20 70 8 \
@@ -73,7 +68,7 @@ case $secim in
     esac
     ;;
 
-# ================= CIKIS =================
+#CIKIS
 3)
     exit
     ;;

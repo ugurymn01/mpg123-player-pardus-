@@ -1,4 +1,4 @@
-<img width="1280" height="800" alt="resim" src="https://github.com/user-attachments/assets/7236e7a9-1ed2-4d74-8279-59ead84a6185" /># MPG123 Player (Pardus)
+# MPG123 Player (Pardus)
 Bu proje, Linux tabanlı bir ses oynatıcı olan mpg123 aracını Pardus Linux üzerinde daha kullanıcı dostu hale getirmek için geliştirilmiştir. Proje, kullanıcıya hem grafiksel (GUI) hem de terminal tabanlı (TUI) iki farklı arayüz seçeneği sunar.
 
 ## Kullanılan Teknolojiler

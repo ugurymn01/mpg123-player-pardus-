@@ -15,27 +15,27 @@
 - Kullanıcı dostu menü yapısıyla kolay kullanım imkanı
 
 # Kurulum
-  Öncelikle kullandığımız işletim sistemi olan **PARDUS** işletim sistemini kurmakla başlıyoruz. Kendi bilgisayarınızda bu işletim sistemi yoksa bunu kullanmak için sanal makina indirip kullanılmasını öneririm bunun için ilk olarak bu sanal makinayı indiriyoruz:
+- Öncelikle kullandığımız işletim sistemi olan **PARDUS** işletim sistemini kurmakla başlıyoruz. Kendi bilgisayarınızda bu işletim sistemi yoksa bunu kullanmak için sanal makina indirip kullanılmasını öneririm bunun için ilk olarak bu sanal makinayı indiriyoruz:
 
 [Virtual Box Kurulum linki](https://www.oracle.com/tr/virtualization/virtualbox/)
   
-  Bu kurulumun hemen ardından Pardus işletim sistemini indirmek için linkimiz ise aşağıdadır:
+- Bu kurulumun hemen ardından Pardus işletim sistemini indirmek için linkimiz ise aşağıdadır:
 
 [PARDUS dosyası](https://pardus.org.tr/)
   
-  Daha sonra virtual box uygulaması üzerinden pardus işetim sistemi seçilerek sanal makina kurulumunu tamamlıyoruz.
+-Daha sonra virtual box uygulaması üzerinden pardus işetim sistemi seçilerek sanal makina kurulumunu tamamlıyoruz.
 
 ## Uygulama Kurulumu Ve Çalıştırma
-  İlk olarak terminali açıp uygulamayı kullanmak için bazı bileşenleri indiriyoruz. Bu bileşenleri aşağıdan direk kopyalayıp kullaabilirsiniz.
+- İlk olarak terminali açıp uygulamayı kullanmak için bazı bileşenleri indiriyoruz. Bu bileşenleri aşağıdan direk kopyalayıp kullaabilirsiniz.
 ```bash
 sudo apt update
 sudo apt install mpg123 whiptail yad
 ```
-  Gereksinimleri kurduktan sonra ise uygulamamız için gerekli indirmeleri yapıyoruz. İlk olarak projeyi klonlayalım
+- Gereksinimleri kurduktan sonra ise uygulamamız için gerekli indirmeleri yapıyoruz. İlk olarak projeyi klonlayalım
 ```bash
 git clone https://github.com/ugurymn01/mpg123-player-pardus-
 ```
-  Konlama işleminden sonra çalıştırmak için şu kodları adım adım çalıştırıyoruz. ./main.sh ile uygulamızı başlatıyoruz ve kullanıma başlıyoruz.
+- Konlama işleminden sonra çalıştırmak için şu kodları adım adım çalıştırıyoruz. ./main.sh ile uygulamızı başlatıyoruz ve kullanıma başlıyoruz.
 ```bash
 cd mpg123-player-pardus-
 chmod +x main.sh
@@ -44,7 +44,7 @@ chmod +x gui/gui.sh
 ./main.sh
 ```
 # Uygulama Tanıtımı
-  Uygulamamızda bizi ilk olarak terminal üzerinden mi grafiksel olarak mı kullanmamızı tercih deceğimiz menü ekranı karşılıyor.
+- Uygulamamızda bizi ilk olarak terminal üzerinden mi grafiksel olarak mı kullanmamızı tercih deceğimiz menü ekranı karşılıyor.
 
 ![Arayüz Seçim Ekranı](screenshots/arayuz%20secimi.png)
 
@@ -52,8 +52,8 @@ chmod +x gui/gui.sh
 
 ![TUI Seçim Ekranı](screenshots/TUI%20EKRANI.png)
   
-  Bu ekranımızda önümüze seçeneklerimiz mp3 çalar ve radyo seçenekleri çıkmakta. Mp3 ekranında bizi bilgisayarımızda yüklü olan mp3 dosyalarının listesi karşılamakta olup seçilen mp3 ümüzü çalmayı sağlamaktadır. Radyo seçeneğimizde uygulamamıza kayıtlı olan radyolar listesi karşılamakta ve bu ekrandan yaptığımız seçime göre o radyo çalmaktadır.
-  Eğer hiçbir işlem yapmayacaksak çıkış ekranı ve vazgeçtiğimizde iptal seçeneği de karşılamakta. Bu arayüzümüzün görüntüleri aşağıda bulunmaktadır:
+- Bu ekranımızda önümüze seçeneklerimiz mp3 çalar ve radyo seçenekleri çıkmakta. Mp3 ekranında bizi bilgisayarımızda yüklü olan mp3 dosyalarının listesi karşılamakta olup seçilen mp3 ümüzü çalmayı sağlamaktadır. Radyo seçeneğimizde uygulamamıza kayıtlı olan radyolar listesi karşılamakta ve bu ekrandan yaptığımız seçime göre o radyo çalmaktadır.
+-Eğer hiçbir işlem yapmayacaksak çıkış ekranı ve vazgeçtiğimizde iptal seçeneği de karşılamakta. Bu arayüzümüzün görüntüleri aşağıda bulunmaktadır:
 <table style="width:100%">
   <tr>
     <td align="center">
@@ -71,7 +71,7 @@ chmod +x gui/gui.sh
 
 ![GUI Seçim Ekranı](screenshots/GUI%20ekran.png)
   
-  Bu ekranımızda da TUI arayüz ekranındaki gibi mp3 çalar ve radyo seçenekleri çıkmakta. Bu arayüzün tek farkı müzaik dosyalarımızı kendimiz dosyalarımızın içinden istediğimiz şekilde seçebiliyoruz. Bu arayüzümüzün görüntüleri ise bu şekildedir:
+- Bu ekranımızda da TUI arayüz ekranındaki gibi mp3 çalar ve radyo seçenekleri çıkmakta. Bu arayüzün tek farkı müzaik dosyalarımızı kendimiz dosyalarımızın içinden istediğimiz şekilde seçebiliyoruz. Bu arayüzümüzün görüntüleri ise bu şekildedir:
   <table style="width:100%">
   <tr>
     <td align="center">

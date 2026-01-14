@@ -16,9 +16,13 @@ Bu proje, Linux tabanlı bir ses oynatıcı olan mpg123 aracını Pardus Linux �
 
 # Kurulum
   Öncelikle kullandığımız işletim sistemi olan **PARDUS** işletim sistemini kurmakla başlıyoruz. Kendi bilgisayarınızda bu işletim sistemi yoksa bunu kullanmak için sanal makina indirip kullanılmasını öneririm bunun için ilk olarak
+
 [Virtual Box Kurulum linki](https://www.oracle.com/tr/virtualization/virtualbox/)
+  
   Bu kurulumun hemen ardından Pardus işletim sistemini indirmek için linkimiz ise aşağıdadır:
+
 [PARDUS dosyası](https://pardus.org.tr/)
+  
   Daha sonra virtual box uygulaması üzerinden pardus işetim sistemi seçilerek sanal makina kurulumunu tamamlıyoruz.
 
 ## Uygulama Kurulumu Ve Çalıştırma
